@@ -1,0 +1,15 @@
+.message {
+  width: 80%;
+  margin: 0px auto;
+  padding: 15px;
+}
+
+.message__nameAndTime,
+.message__msg {
+  text-align: left;
+}
+
+.message__nameAndTime {
+  color: rgb(165, 165, 165);
+  /* padding-bottom: 5px; */
+}

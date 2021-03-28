@@ -1,0 +1,4 @@
+.meassageList {
+  flex: 0.75;
+  overflow: auto;
+}

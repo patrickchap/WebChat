@@ -1,0 +1,56 @@
+.room__header,
+.header {
+  background-color: rgb(111, 178, 255);
+  height: 64px;
+  line-height: 64px;
+  font-size: x-large;
+}
+
+.header__container {
+  display: flex;
+  width: 60%;
+  margin: 0px auto;
+}
+
+.header__name {
+  flex: 0.5;
+  text-align: left;
+}
+.header__logout {
+  flex: 0.5;
+  text-align: right !important;
+}
+
+.room {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.room__header {
+  flex: 0.1;
+}
+
+.room_messages {
+  flex: 0.8;
+}
+.room__sendMessage {
+  flex: 0.1;
+  line-height: 64px;
+  background-color: rgb(111, 178, 255);
+}
+
+.room_messages {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+}
+
+.room__sendMessage > form > input[type="text"] {
+  width: 80%;
+  height: 25px;
+}
+
+.room__sendMessage > form > input[type="submit"] {
+  height: 25px;
+}

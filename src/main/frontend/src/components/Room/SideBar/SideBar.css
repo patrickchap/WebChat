@@ -1,0 +1,25 @@
+.sideBar {
+  background-color: rgb(130, 188, 253);
+  flex: 0.25;
+}
+
+.sideBar__title {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.sideBar__title > h3 {
+  padding-left: 2px;
+}
+
+.sideBar__users {
+  color: white;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* float: left; */
+  /* justify-content: start; */
+  /* align-items: center; */
+  /* padding-left: 20px; */
+}
